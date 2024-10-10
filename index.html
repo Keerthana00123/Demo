@@ -2,10 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <h1> Content</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./style/style.css" type="text/css"/>
+    <script>
+        function openMenu(){
+            if(document.getElementById("menu").style.display === "none"){
+                    document.getElementById("menu").style.display="flex"
+        }else{
+            document.getElementById("menu").style.display="none"
+        }
+    }
+</script>
+ </head>
+ <body>
+    <div class="main">
+    <a href="https://api.whatsapp.com/send?phone=8015631168" class="wsp">
+        <img src="./image/whatsappp1.png" width="50px" height="50px" alt="whatsapp"/>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=8015631168" class="fcb">
+        <img src="./image/fb1.png" width="50px" height="50px" alt="facebook"/>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=8015631168" class="insta">
+        <img src="./image/insta2.png" width="50px" height="50px" alt="instagram"/>
+    </a>
+    <nav>
+        <div class="navi">
+            <div class="navi1">
+                <h2><i class="fa-solid fa-apple-whole"></i> apple</h2>
+            </div>
+            <div id="menu" class="navi2">
+                <a href="#page1" class="child">Home</a>
+                <a href="#page2" class="child">Accessories</a>
+                <a href="#page3" class="child">Others</a>
+                <a href="#page4" class="child">Contact</a>
+            </div>
+            <buttton onclick="openMenu()" class="menu-btn"><i class="fa-solid fa-bars"></i></buttton>
+        </div>
+    </nav>
+        <div  class="para" id="page1">
+            <div class="para1">
+                <h2>iPhone 15</h2>
+                <div>The iPhone 15 features and specifications brings a significant upgrade to the camera with a new 48MP main sensor. It also inherits the Dynamic Island and brighter Super Retina XDR display from the Pro models. The iPhone 15 specifications include a 6.1-inch OLED display and the powerful A16 Bionic chip.</div>
+                <button style="width:100px;height:50px;background-color:rgb(231, 227, 227);border:1px solid rgb(231, 227, 227);border-radius:7px">Get Started</button>
+            </div>
+            <div class="img">
+                <img src="./image/iphone.jpg" width="500px" height="300px"/>
+            </div>
+        </div>
+    <div class="para2">
+        <div class="img">
+            <img src="./image/iphone2.jpg" width="500px" height="300px"/>
+        </div>
+            <div class="para3">  
+                <h2>iPhone 14</h2>
+                iPhone 14 Technical Specifications. The iPhone 14 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally.The iPhone 14 does not have a "Mini" version like its predecessor, the iPhone 13 Mini. Instead, Apple reintroduced a larger iPhone 14 named the iPhone 14 Plus. Apple has not introduced a Plus model iPhone since the iPhone 8 Plus in 2017. 
+            </div>
+             
+        </div>
+        <div class="card" id="page2">
+            <div class="card1">
+                 <img src="./image/ipad.jpg" width="200px" height="200px"/>
+                Apple iPad Air 11″ (M2): Liquid Retina Display, 256GB, Landscape 12MP Front Camera / 12MP Back Camera, Wi-Fi 6E, Touch ID, All-Day Battery Life — Blue.
+            </div>
+            <div class="card1">
+                <img src="./image/airpods1.png" width="200px" height="200px"/>
+                 Apple AirPods(2nd gen) with Charging Case Bluetooth Headset with Mic  (White, True Wireless).
+            </div>
+            <div class="card1">
+                <img src="./image/laptop.jpg" width="200px" height="125px"/>
+                Apple 2024 MacBook Air 15″ Laptop with M3 chip: 38.91 cm (15.3″) Liquid Retina Display, 8GB Unified Memory, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID- Starlight.
+            </div>
+            <div class="card1">
+                <img src="./image/watch12.png" width="200px" height="200px"/>
+                Apple Watch Ultra 2 GPS + Cellular 49mm Black Titanium Case with Dark Green Alpine Loop - M.
+            </div>
+            </div class="cus">
+                <div class="cus1" id="page3">
+                <div style="text-align:center">The iPhone 15 is powered by the new A16 Bionic chip, which is the fastest mobile chip on the market. The A16 Bionic chip is up to 20% faster than the A15 Bionic chip in the iPhone 14.</div>
+                <div><img src="./image/download (1).png" height="80px" width="80px" style="border:1px solid white;border-radius: 50%;"/> </div>
+        </div>
+        <div class="cus2" >
+            <div style="text-align:center">I am an android user still I don't face issue at the time of operating. In India you have to download required apps from app store free of cost. Apple store not available in India.</div>
+        <div><img src="./image/download (1).png" height="80px" width="80px" style="border:1px solid white;border-radius: 50%;"/> </div>
+        </div>
+        <div class="cus3">
+            <div style="text-align:center"> The display is impressively bright, despite the 60 Hz, which I thought might be a drawback coming from a 120 Hz Android device. Surprisingly, it feels the same.</div>
+            <div><img src="./image/download (1).png" height="80px" width="80px" style="border:1px solid white;border-radius: 50%;"/> </div>
+        </div>
+        <div class="cus4">
+            <div style="text-align:center">One of the most noticeable changes to the iPhone 15 is its new design. The phone now has rounded edges, which makes it feel more comfortable in the hand. It also has a new camera bump that is less pronounced than the one on the iPhone 14.</div>
+        <div><img src="./image/download (1).png" height="80px" width="80px" style="border:1px solid white;border-radius: 50%;"/> </div>
+        </div>
+
+        <div class="final" id="page4">
+            <div style="height:200px;width:300px;"><h2>Address </h2>
+
+            New No:26, First Floor, 100 Feet By Pass Road Next to Thalappakatti hotel Velachery, Chennai, Tamil Nadu 600042</div>
+            <div style="height:200px;width:300px;"> 
+                <div class="contact"><h3>www.apple.com</h3>
+                <h3>branch Phone:9841777466/9841637567</h3>
+
+                <a href="#page1" class="child" style="width:100px;height:50px;">Home</a>
+                <a href="#page2" class="child" style="width:100px;height:50px;">Accessories</a>
+                <a href="#page3" class="child" style="width:100px;height:50px;">Others</a></div>
+            </div>
+        <div> <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d3887.8944165386283!2d80.2165792750766!3d12.978604437337419!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a525d5fbb17dfc1%3A0x7128cef2f9214a31!2sApple%20Showroom%20in%20Velachery%2C%20New%20No%3A26%2C%20First%20Floor%2C%20100%20Feet%20By%20Pass%20Road%20Next%20to%20Thalappakatti%20hotel%20Velachery%2C%20Chennai%2C%20Tamil%20Nadu%20600042!3m2!1d12.9776323!2d80.21921259999999!5e0!3m2!1sen!2sin!4v1728306491662!5m2!1sen!2sin" width="200px" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </div>
+
+
 </body>
 </html>
