@@ -269,6 +269,7 @@ body{
         height:80vh;
         background-color:rgb(162, 170, 173);
         margin-top: 50px;
+        padding:50px;
         display: flex;
         flex-direction: column;
      }
